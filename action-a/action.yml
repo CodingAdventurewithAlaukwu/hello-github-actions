@@ -1,5 +1,5 @@
 name: "Hello Actions"
-description: "Greet Someone"
+description: "Greet someone"
 author: "octocat@github.com"
 
 inputs:
@@ -7,8 +7,8 @@ inputs:
     description: "Who to greet"
     required: true
     default: "World"
-    
-runs
+
+runs:
   using: "docker"
   image: "Dockerfile"
 
